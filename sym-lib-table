@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "STM32F407ZGT6")(type "KiCad")(uri "C:/Users/r0b0h/Downloads/KiCAD_Stuff/STM32F407ZGT6/KiCad/STM32F407ZGT6.kicad_sym")(options "")(descr ""))
+)
