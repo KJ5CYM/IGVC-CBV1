@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1288501"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-22-22:24:44)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "CSTNE8M00GH5C000R0")
+)
+
+
+(pinAssign "ECS_1288501"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-22-22:24:44)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "INPUT") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "GND") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "OUTPUT") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1288501")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "CSTNE8M00GH5C000R0")
+)
+
+
+(part "CSTNE8M00GH5C000R0"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2019-07-22-22:24:44)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "CSTNE8M00GH5C000R0")
+    (pinAssignRef "ECS_1288501")
+    (interface
+        (port "1" (symbPinId 1) (portName "INPUT") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "GND") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "OUTPUT") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Y")
+    (property "description" "Resonators 8.0000MHz 33pF SMD CHP Rsntr 0.07% AUTO")
+    (property "Mouser_Part_Number" "81-CSTNE8M00GH5C000R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTNE8M00GH5C000R0?qs=y6ZabgHbY%252ByuG8XwUR67qA%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "CSTNE8M00GH5C000R0")
+    (property "Datasheet_Link" "https://www.murata.com/en-eu/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf?1559743212000")
+    (property "compAreaTopHeight" 0.8)
+)
+
+

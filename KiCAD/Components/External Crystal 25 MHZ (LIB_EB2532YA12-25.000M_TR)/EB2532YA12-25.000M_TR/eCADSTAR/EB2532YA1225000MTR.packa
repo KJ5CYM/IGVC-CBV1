@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EB2532YA12-25_000M_TR"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-05-22:48:38)
+    (mountForm default
+        (footprintRef "EB2532YA1225000MTR")
+        (spec "System")
+    )
+)

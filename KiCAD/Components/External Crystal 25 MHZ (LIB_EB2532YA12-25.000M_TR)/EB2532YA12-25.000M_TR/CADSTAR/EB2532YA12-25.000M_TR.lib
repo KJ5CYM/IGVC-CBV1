@@ -1,0 +1,16 @@
+.EB2532YA12-25.000M_TR :1 ;Resonators 25MHz 50ppm -40C +125C AEC-Q200
+EB2532YA1225000MTR
+*STM Y
+*NGS
+*PLB 1="CRYSTAL_1" 2="COVER/GROUND" 3="CRYSTAL_2" 4="NO CONNECT"
+*MXP 4
+*DFN EB2532YA12-25.000M_TR
+~!Mouser Part Number (669-EB2532YA12-25T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Ecliptek-Abracon/EB2532YA12-25.000M-TR?qs=w%2Fv1CP2dgqpZsfARvpEpvQ%3D%3D)
+~!Manufacturer_Name (Ecliptek)
+~!Manufacturer_Part_Number (EB2532YA12-25.000M TR)
+~!Link Datasheet (http://www.ecliptek.com/SpecSheetGenerator/specific.aspx?PartNumber=EB2532YA12-25.000M%20TR)
+~!Height (0.8mm)
+~!3D_Model (EB2532YA12-25.000M_TR)
+EB2532YA12-25.000M_TR
+1.1!U 2.1!U 3.1!U 4.1!U 

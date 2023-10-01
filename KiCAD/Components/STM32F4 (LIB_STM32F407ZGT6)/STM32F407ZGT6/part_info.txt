@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32F407ZGT6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=144
+Version=5.1
+Released=2020-12-20 06:40:55
+Downloaded=2023-10-01 03:18:37
+3D=Y

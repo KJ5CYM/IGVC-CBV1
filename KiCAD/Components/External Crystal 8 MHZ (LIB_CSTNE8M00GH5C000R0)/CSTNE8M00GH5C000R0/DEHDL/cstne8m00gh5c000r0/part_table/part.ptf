@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'CSTNE8M00GH5C000R0'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "CSTNE8M00GH5C000R0" (!) = "", "CSTNE12M0GH5L000R0", "Other", "81-CSTNE8M00GH5C000R", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTNE8M00GH5C000R0?qs=y6ZabgHbY%252ByuG8XwUR67qA%3D%3D", "Resonators 8.0000MHz 33pF SMD CHP Rsntr 0.07% AUTO", "https://www.murata.com/en-eu/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf?1559743212000", "0.8 mm"
+END_PART
+
+END.

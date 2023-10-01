@@ -1,0 +1,9 @@
+Manufacturer=Ecliptek
+PartNumber=EB2532YA12-25.000M TR
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=1.5
+Released=2019-07-05 22:48:38
+Downloaded=2023-10-01 03:49:58
+3D=Y

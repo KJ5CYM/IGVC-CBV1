@@ -1,0 +1,13 @@
+motor drver
+led
+other arduino
+reciever e-stop
+1. find communication protocol for each device
+2. Set pins on microcontroller
+3. Do Schematic
+
+so, motor drive can use various UART protocol lines in order to send respective data.
+
+One UART
+One I2C
+Another I2C

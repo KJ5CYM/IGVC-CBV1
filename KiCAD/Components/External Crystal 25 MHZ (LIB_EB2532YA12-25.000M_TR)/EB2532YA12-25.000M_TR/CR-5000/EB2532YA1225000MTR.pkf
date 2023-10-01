@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "EB2532YA1225000MTR"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "EB2532YA1225000MTR")
+        (spec "default")
+    )
+)

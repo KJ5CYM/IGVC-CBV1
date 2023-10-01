@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EB2532YA12_25.000M_TR'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Ecliptek", "EB2532YA12-25.000M TR" (!) = "", "EB2532YA1225000MTR", "Other", "669-EB2532YA12-25T", "https://www.mouser.co.uk/ProductDetail/Ecliptek-Abracon/EB2532YA12-25.000M-TR?qs=w%2Fv1CP2dgqpZsfARvpEpvQ%3D%3D", "Resonators 25MHz 50ppm -40C +125C AEC-Q200", "http://www.ecliptek.com/SpecSheetGenerator/specific.aspx?PartNumber=EB2532YA12-25.000M%20TR", "0.8 mm"
+END_PART
+
+END.

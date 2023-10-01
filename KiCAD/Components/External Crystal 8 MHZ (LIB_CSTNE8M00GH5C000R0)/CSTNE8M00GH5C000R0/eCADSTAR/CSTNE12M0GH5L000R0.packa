@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "CSTNE8M00GH5C000R0"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-02-28-14:14:58)
+    (mountForm default
+        (footprintRef "CSTNE12M0GH5L000R0")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EB2532YA12-25.000M_TR
+D Resonators 25MHz 50ppm -40C +125C AEC-Q200
+K
+F http://www.ecliptek.com/SpecSheetGenerator/specific.aspx?PartNumber=EB2532YA12-25.000M%20TR
+$ENDCMP
+#
+#End Doc Library

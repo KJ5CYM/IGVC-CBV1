@@ -1,0 +1,24 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model CSTNE8M00GH5C000R0
+#/1288501/1127645/2.50/3/4/Crystal or Oscillator
+DEF CSTNE8M00GH5C000R0 Y 0 30 Y Y 1 F N
+F0 "Y" 850 300 50 H V L CNN
+F1 "CSTNE8M00GH5C000R0" 850 200 50 H V L CNN
+F2 "CSTNE12M0GH5L000R0" 850 100 50 H I L CNN
+F3 "https://www.murata.com/en-eu/products/productdata/8801161773086/SPEC-CSTNE8M00GH5C000R0.pdf?1559743212000" 850 0 50 H I L CNN
+F4 "Resonators 8.0000MHz 33pF SMD CHP Rsntr 0.07% AUTO" 850 -100 50 H I L CNN "Description"
+F5 "0.8" 850 -200 50 H I L CNN "Height"
+F6 "81-CSTNE8M00GH5C000R" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTNE8M00GH5C000R0?qs=y6ZabgHbY%252ByuG8XwUR67qA%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "CSTNE8M00GH5C000R0" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X INPUT 1 0 -200 200 R 50 50 0 0 P
+X GND 2 0 -100 200 R 50 50 0 0 P
+X OUTPUT 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,120 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "EB2532YA12-25.000M_TR"
+   (description "Resonators 25MHz 50ppm -40C +125C AEC-Q200")
+   (family "OSC")
+   (package "EB2532YA1225000MTR")
+   (attribute "Datasheet Link" "http://www.ecliptek.com/SpecSheetGenerator/specific.aspx?PartNumber=EB2532YA12-25.000M%20TR")
+   (attribute "Geometry.Height" "0.8mm")
+   (attribute "Mouser Part Number" "669-EB2532YA12-25T")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Ecliptek-Abracon/EB2532YA12-25.000M-TR?qs=w%2Fv1CP2dgqpZsfARvpEpvQ%3D%3D")
+   (attribute "Manufacturer_Name" "Ecliptek")
+   (attribute "Manufacturer_Part_Number" "EB2532YA12-25.000M TR")
+   (gate
+    (symbol "EB2532YA12-25.000M_TR")
+    (pin "CRYSTAL_1" 1 PS)
+    (pin "COVER/GROUND" 2 PS)
+    (pin "CRYSTAL_2" 3 PS)
+    (pin "NO_CONNECT" 4 PS)
+   )
+  )
+  (symbol "EB2532YA12-25.000M_TR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1600 100) (pt 1600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "EB2532YA1225000MTR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 1.25 1.6)
+      (pt -1.25 1.6)
+      (pt -1.25 -1.6)
+      (pt 1.25 -1.6)
+      (pt 1.25 1.6))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 2.5 2.7)
+      (pt -3 2.7)
+      (pt -3 -2.7)
+      (pt 2.5 -2.7)
+      (pt 2.5 2.7))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2 1.12)
+      (arc (pt -2.000 1.120) (pt -1.900 1.070) (pt -2.000 1.170) (start 180.0) (sweep 180.0))
+      (pt -1.9 1.12)
+      (arc (pt -1.900 1.120) (pt -1.900 1.070) (pt -2.000 1.170) (start 180.0) (sweep .0))
+      (pt -2 1.12))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.25 -0.1)
+      (pt -1.25 0.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 1.25 -0.05)
+      (pt 1.25 0.2))))
+   (leg 1 (pt -0.850 1.050) (padstack 0))
+   (leg 2 (pt -0.850 -1.050) (padstack 0))
+   (leg 3 (pt 0.850 -1.050) (padstack 0))
+   (leg 4 (pt 0.850 1.050) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.300 1.300 0 0 90.000))
+   )
+   (model "EB2532YA12-25.000M_TR.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=CSTNE8M00GH5C000R0
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=3
+Version=1.2
+Released=2019-07-22 22:24:44
+Downloaded=2023-10-01 03:12:12
+3D=Y
