@@ -1,0 +1,144 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "AT45DB081E-SSHN-B"
+   (description "The AT45DB081E DataFlash is a member of our System Enhancing class of code and data storage solutions designed with an advanced dual SRAM buffer architecture that makes it the most efficient memory for data logging. It also incorporates a suite of advanced features that save system power, reduce processor overhead, simplify software development, and provide comprehensive data security and integrity options.")
+   (family "ANA")
+   (package "SOIC127P600X175-8N")
+   (attribute "Datasheet Link" "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dataflash-spi-memory/at45db081e-8mbit-17-v-36-v-range-spi-serial-flash-memory")
+   (attribute "Geometry.Height" "1.75mm")
+   (attribute "Mouser Part Number" "988-AT45DB081ESSHN-B")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT45DB081E-SSHN-B?qs=IS%252B4QmGtzzqxC8S2FUDu%2Fg%3D%3D")
+   (attribute "Manufacturer_Name" "Renesas Electronics")
+   (attribute "Manufacturer_Part_Number" "AT45DB081E-SSHN-B")
+   (gate
+    (symbol "AT45DB081E-SSHN-B")
+    (pin "SI" 1 PS)
+    (pin "SCK" 2 PS)
+    (pin "$RESET$" 3 PS)
+    (pin "$CS$" 4 PS)
+    (pin "SO" 8 PS)
+    (pin "GND" 7 PS)
+    (pin "VCC" 6 PS)
+    (pin "$WP$" 5 PS)
+   )
+  )
+  (symbol "AT45DB081E-SSHN-B"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1000 100) (pt 1000 -400) (pt 200 -400) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1200 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "SOIC127P600X175-8N"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -3.725 2.775)
+      (pt 3.725 2.775)
+      (pt 3.725 -2.775)
+      (pt -3.725 -2.775)
+      (pt -3.725 2.775))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.95 2.462)
+      (pt 1.95 2.462)
+      (pt 1.95 -2.462)
+      (pt -1.95 -2.462)
+      (pt -1.95 2.462))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt -1.95 1.192)
+      (pt -0.68 2.462))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.6 2.462)
+      (pt 1.6 2.462)
+      (pt 1.6 -2.462)
+      (pt -1.6 -2.462)
+      (pt -1.6 2.462))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -3.475 2.58)
+      (pt -1.95 2.58))))
+   (leg 1 (pt -2.712 1.905) (padstack 0))
+   (leg 2 (pt -2.712 0.635) (padstack 0))
+   (leg 3 (pt -2.712 -0.635) (padstack 0))
+   (leg 4 (pt -2.712 -1.905) (padstack 0))
+   (leg 5 (pt 2.712 -1.905) (padstack 0))
+   (leg 6 (pt 2.712 -0.635) (padstack 0))
+   (leg 7 (pt 2.712 0.635) (padstack 0))
+   (leg 8 (pt 2.712 1.905) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.65 1.525 0 0 0))
+   )
+   (model "AT45DB081E-SSHN-B.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

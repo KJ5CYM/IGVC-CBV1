@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--/16260981/1226338/2.50/8/2/Integrated Circuit/-->
+<quadcept_library>
+  <setting unit="mil" />
+  <textstyle name="Default" height="47.244094488189" strokewidth="7.8740157480315" charwidth="47.244094488189" />
+  <textstyle name="Dimension" height="19.6850393700787" strokewidth="0" charwidth="19.6850393700787" />
+  <textstyle name="H127W0635TH00762" height="50" strokewidth="3" charwidth="25" />
+  <textstyle name="H15W15TH02" height="59.0551181102362" strokewidth="7.8740157480315" charwidth="59.0551181102362" />
+  <padstyle name="r152.5_65" surface="True" plated="False" isvia="False" nopaste="False" nomask="True" complex="False" holesize="0">
+    <padshape layer="TOP" shape="rectangle" width="25.590551181102" height="60.039370078739" />
+    <padshape layer="TOP_SOLDER_MASK" shape="rectangle" width="33.464566929133" height="67.913385826771" />
+    <padshape layer="TOP_SOLDER_PASTE" shape="rectangle" width="25.590551181102" height="60.039370078739" />
+  </padstyle>
+  <footprint name="SOIC127P600X175-8N" originx="0" originy="0" pickpointx="0" pickpointy="0">
+    <pcbpin number="1" name="1" style="r152.5_65" originx="-106.77165354331" originy="74.999999999999" rotation="90" />
+    <pcbpin number="2" name="2" style="r152.5_65" originx="-106.77165354331" originy="25" rotation="90" />
+    <pcbpin number="3" name="3" style="r152.5_65" originx="-106.77165354331" originy="-25" rotation="90" />
+    <pcbpin number="4" name="4" style="r152.5_65" originx="-106.77165354331" originy="-74.999999999999" rotation="90" />
+    <pcbpin number="5" name="5" style="r152.5_65" originx="106.77165354331" originy="-74.999999999999" rotation="90" />
+    <pcbpin number="6" name="6" style="r152.5_65" originx="106.77165354331" originy="-25" rotation="90" />
+    <pcbpin number="7" name="7" style="r152.5_65" originx="106.77165354331" originy="25" rotation="90" />
+    <pcbpin number="8" name="8" style="r152.5_65" originx="106.77165354331" originy="74.999999999999" rotation="90" />
+    <line layer="TOP_PLACE_BOUND" originx="-146.65354330708" originy="109.25196850394" endx="146.65354330708" endy="109.25196850394" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="146.65354330708" originy="109.25196850394" endx="146.65354330708" endy="-109.25196850394" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="146.65354330708" originy="-109.25196850394" endx="-146.65354330708" endy="-109.25196850394" width="1.9685039370079" />
+    <line layer="TOP_PLACE_BOUND" originx="-146.65354330708" originy="-109.25196850394" endx="-146.65354330708" endy="109.25196850394" width="1.9685039370079" />
+    <line layer="TOP_ASSEMBLY" originx="-76.771653543306" originy="96.929133858267" endx="76.771653543306" endy="96.929133858267" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="76.771653543306" originy="96.929133858267" endx="76.771653543306" endy="-96.929133858267" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="76.771653543306" originy="-96.929133858267" endx="-76.771653543306" endy="-96.929133858267" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-76.771653543306" originy="-96.929133858267" endx="-76.771653543306" endy="96.929133858267" width="3.9370078740157" />
+    <line layer="TOP_ASSEMBLY" originx="-76.771653543306" originy="46.929133858267" endx="-26.771653543307" endy="96.929133858267" width="3.9370078740157" />
+    <line layer="TOP_SILKSCREEN" originx="-62.992125984251" originy="96.929133858267" endx="62.992125984251" endy="96.929133858267" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="62.992125984251" originy="96.929133858267" endx="62.992125984251" endy="-96.929133858267" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="62.992125984251" originy="-96.929133858267" endx="-62.992125984251" endy="-96.929133858267" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-62.992125984251" originy="-96.929133858267" endx="-62.992125984251" endy="96.929133858267" width="7.8740157480314" />
+    <line layer="TOP_SILKSCREEN" originx="-136.81102362205" originy="101.57480314961" endx="-76.771653543306" endy="101.57480314961" width="7.8740157480314" />
+  </footprint>
+  <symbol name="AT45DB081E-SSHN-B" originx="0" originy="0">
+    <line originx="200" originy="100" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-400" endx="1000" endy="100" width="0" />
+    <line originx="1000" originy="-400" endx="200" endy="-400" width="0" />
+    <line originx="200" originy="100" endx="200" endy="-400" width="0" />
+    <sympin number="1" originx="200" originy="0" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="0" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SI" />
+      <text name="pindes" originx="140" originy="20" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="1" />
+    </sympin>
+    <sympin number="2" originx="200" originy="-100" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-100" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="SCK" />
+      <text name="pindes" originx="140" originy="-80" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="2" />
+    </sympin>
+    <sympin number="3" originx="200" originy="-200" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="\RESET" />
+      <text name="pindes" originx="140" originy="-180" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="3" />
+    </sympin>
+    <sympin number="4" originx="200" originy="-300" rotation="180" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="230" originy="-300" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="\CS" />
+      <text name="pindes" originx="140" originy="-280" style="Default" rotation="0" justify="lowerright" flipped="False" hidden="False" data="4" />
+    </sympin>
+    <sympin number="8" originx="1000" originy="0" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="0" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="SO" />
+      <text name="pindes" originx="1060" originy="20" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="8" />
+    </sympin>
+    <sympin number="7" originx="1000" originy="-100" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="-100" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="GND" />
+      <text name="pindes" originx="1060" originy="-80" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="7" />
+    </sympin>
+    <sympin number="6" originx="1000" originy="-200" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="-200" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="VCC" />
+      <text name="pindes" originx="1060" originy="-180" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="6" />
+    </sympin>
+    <sympin number="5" originx="1000" originy="-300" rotation="0" length="100" width="7.8740157480315" flipped="False">
+      <text name="pinname" originx="970" originy="-300" style="Default" rotation="0" justify="right" flipped="False" hidden="False" data="\WP" />
+      <text name="pindes" originx="1060" originy="-280" style="Default" rotation="0" justify="lowerleft" flipped="False" hidden="False" data="5" />
+    </sympin>
+  </symbol>
+  <component name="AT45DB081E-SSHN-B" designatorprefix="IC" height="68.897637795275" footprint="SOIC127P600X175-8N">
+    <comppin designator="1" sympin="1" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SI" />
+    <comppin designator="2" sympin="2" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SCK" />
+    <comppin designator="3" sympin="3" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="|RESET" />
+    <comppin designator="4" sympin="4" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="|CS" />
+    <comppin designator="5" sympin="5" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="|WP" />
+    <comppin designator="6" sympin="6" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="VCC" />
+    <comppin designator="7" sympin="7" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="GND" />
+    <comppin designator="8" sympin="8" pinswap="0" gateswap="0" gate="1" group="1" side="" type="Any" name="SO" />
+    <attached_symbol gate="1" name="AT45DB081E-SSHN-B" />
+    <pinmap designator="1" footprintpin="1" />
+    <pinmap designator="2" footprintpin="2" />
+    <pinmap designator="3" footprintpin="3" />
+    <pinmap designator="4" footprintpin="4" />
+    <pinmap designator="5" footprintpin="5" />
+    <pinmap designator="6" footprintpin="6" />
+    <pinmap designator="7" footprintpin="7" />
+    <pinmap designator="8" footprintpin="8" />
+    <text name="Datasheet" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dataflash-spi-memory/at45db081e-8mbit-17-v-36-v-range-spi-serial-flash-memory" />
+    <text name="Description" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="The AT45DB081E DataFlash is a member of our System Enhancing class of code and data storage solutions designed with an advanced dual SRAM buffer architecture that makes it the most efficient memory for data logging. It also incorporates a suite of advanced features that save system power, reduce processor overhead, simplify software development, and provide comprehensive data security and integrity options." />
+    <text name="Mouser Part Number" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="988-AT45DB081ESSHN-B" />
+    <text name="Mouser Price/Stock" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT45DB081E-SSHN-B?qs=IS%252B4QmGtzzqxC8S2FUDu%2Fg%3D%3D" />
+    <text name="Manufacturer_Name" originx="0" originy="0" style="Default" rotation="0" justify="" flipped="False" hidden="True" data="Renesas Electronics" />
+    <text name="Manufacturer_Part_Number" originx="1050" originy="200" style="Default" rotation="0" justify="left" flipped="False" hidden="False" data="AT45DB081E-SSHN-B" />
+  </component>
+</quadcept_library>

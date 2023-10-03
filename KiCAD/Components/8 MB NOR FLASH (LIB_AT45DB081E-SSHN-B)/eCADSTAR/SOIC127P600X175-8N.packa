@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "AT45DB081E-SSHN-B"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-06-21-06:13:43)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

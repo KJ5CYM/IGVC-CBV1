@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AT45DB081E_SSHN_B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Renesas Electronics", "AT45DB081E-SSHN-B" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "988-AT45DB081ESSHN-B", "https://www.mouser.co.uk/ProductDetail/Renesas-Dialog/AT45DB081E-SSHN-B?qs=IS%252B4QmGtzzqxC8S2FUDu%2Fg%3D%3D", "The AT45DB081E DataFlash is a member of our System Enhancing class of code and data storage solutions designed with an advanced dual SRAM buffer architecture that makes it the most efficient memory for data logging. It also incorporates a suite of advanced features that save system power, reduce processor overhead, simplify software development, and provide comprehensive data security and integrity options.", "https://www.renesas.com/us/en/products/memory-logic/non-volatile-memory/spi-nor-flash/dataflash-spi-memory/at45db081e-8mbit-17-v-36-v-range-spi-serial-flash-memory", "1.75 mm"
+END_PART
+
+END.
