@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "AT25DF081A-SH-B")(type "KiCad")(uri "C:/Users/r0b0h/Downloads/KiCAD_Stuff/AT25DF081A-SH-B/KiCad/AT25DF081A-SH-B.kicad_sym")(options "")(descr ""))
+  (lib (name "AT45DB081E-SSHN-B")(type "KiCad")(uri "C:/Users/r0b0h/Desktop/IGVC-CBV1-main/KiCAD/Components/8 MB NOR FLASH (LIB_AT45DB081E-SSHN-B)/KiCad/AT45DB081E-SSHN-B.kicad_sym")(options "")(descr ""))
 )
