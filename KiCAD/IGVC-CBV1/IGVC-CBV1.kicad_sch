@@ -1413,58 +1413,6 @@
         )
       )
     )
-    (symbol "power:+3.3VA" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "+3.3VA" (at 0 3.556 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"+3.3VA\"" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "+3.3VA_0_1"
-        (polyline
-          (pts
-            (xy -0.762 1.27)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 2.54)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 2.54)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "+3.3VA_1_1"
-        (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3.3VA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2899,11 +2847,6 @@
     (effects (font (size 2 2) (thickness 0.254) bold) (justify left bottom))
     (uuid 12f7349a-1cf3-405b-b9dd-9a0a6630ab48)
   )
-  (text "ALSO, Need a source for \nAnalog Voltage VA.\n@Colby"
-    (at 50.8 337.82 0)
-    (effects (font (size 3 3)) (justify left bottom))
-    (uuid 230749f3-4ef0-478c-877b-e391c44ac9a7)
-  )
   (text "Motor Driver Pins (2.54mm Pitch)" (at 142.24 114.3 0)
     (effects (font (size 2 2) bold) (justify left bottom))
     (uuid 4f4e86b0-2d87-4f86-893b-c221abaf6871)
@@ -2911,6 +2854,10 @@
   (text "STLink V2 Pins (2.54mm Pitch)" (at 142.24 73.66 0)
     (effects (font (size 2 2) bold) (justify left bottom))
     (uuid 565361d1-9f4a-4ffc-8635-95e85015ceeb)
+  )
+  (text "Flash\nBoot" (at 365.76 95.25 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid 6f0cf8cf-11bd-437b-9b24-a7fbef4c1807)
   )
   (text "LAST Thing: E-Stop.\nNeed to create a way for the EStop to manipulate\nmotor driver w/o MCU processing.\nThis ensures analog intervention as opposed to\nfluky digital processsing teliing the motors\nto stop."
     (at 50.8 316.23 0)
@@ -3587,36 +3534,6 @@
       (project "IGVC-CBV1"
         (path "/c1e6e0fc-6008-46c6-a177-6e4d31d6ddb3"
           (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3VA") (at 331.47 106.68 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 257b6348-9be1-424e-9600-9a636d21a824)
-    (property "Reference" "#PWR05" (at 331.47 110.49 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3VA" (at 331.47 101.6 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 331.47 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 331.47 106.68 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 418e59cb-dc2d-44f7-9f86-c18030c1dabc))
-    (instances
-      (project "IGVC_PCB"
-        (path "/ba927162-b9f6-45a7-80b2-ebd881f388a6"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-      (project "IGVC-CBV1"
-        (path "/c1e6e0fc-6008-46c6-a177-6e4d31d6ddb3"
-          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4984,10 +4901,10 @@
   (symbol (lib_id "Switch:SW_SPDT") (at 374.65 101.6 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bd957199-d7a6-4cad-866b-bfbedc10228e)
-    (property "Reference" "SW1" (at 372.11 106.68 90)
+    (property "Reference" "SW1" (at 384.81 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SW_SPDT" (at 374.65 109.22 90)
+    (property "Value" "SW_SPDT" (at 387.35 101.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 374.65 101.6 0)
@@ -5503,6 +5420,36 @@
       (project "IGVC-CBV1"
         (path "/c1e6e0fc-6008-46c6-a177-6e4d31d6ddb3"
           (reference "C13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 331.47 106.68 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid f3d3e9ba-6959-406d-a6de-8dc54d73f1c0)
+    (property "Reference" "#PWR02" (at 331.47 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 332.74 101.6 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 331.47 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 331.47 106.68 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 75996243-763f-4ee0-b7cf-2f4ddb419c95))
+    (instances
+      (project "IGVC_PCB"
+        (path "/ba927162-b9f6-45a7-80b2-ebd881f388a6"
+          (reference "#PWR02") (unit 1)
+        )
+      )
+      (project "IGVC-CBV1"
+        (path "/c1e6e0fc-6008-46c6-a177-6e4d31d6ddb3"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
