@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERJ-1GJ0R00C
+D Series/Type: Thick Film Chip Resistors, Power Rating (W): -, 0.6 x 0.3 (EIA:0201), Resistance Values (): 0, Resistance Tolerance (%): -, T.C.R (10/K): -
+K
+F https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf
+$ENDCMP
+#
+#End Doc Library

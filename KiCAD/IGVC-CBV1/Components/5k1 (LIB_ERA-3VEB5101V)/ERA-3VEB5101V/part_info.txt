@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERA-3VEB5101V
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=2.1
+Released=2021-09-03 10:18:21
+Downloaded=2023-10-07 04:43:25
+3D=Y

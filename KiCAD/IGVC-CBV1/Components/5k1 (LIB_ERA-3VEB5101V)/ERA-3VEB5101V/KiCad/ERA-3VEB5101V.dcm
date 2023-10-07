@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ERA-3VEB5101V
+D Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf
+$ENDCMP
+#
+#End Doc Library

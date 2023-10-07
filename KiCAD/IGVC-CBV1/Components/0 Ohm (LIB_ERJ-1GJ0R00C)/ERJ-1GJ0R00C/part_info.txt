@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ERJ-1GJ0R00C
+PartCategory=Resistor
+PackageCategory=Other
+PinCount=2
+Version=1.1
+Released=2023-10-05 15:11:49
+Downloaded=2023-10-07 04:44:22
+3D=Y

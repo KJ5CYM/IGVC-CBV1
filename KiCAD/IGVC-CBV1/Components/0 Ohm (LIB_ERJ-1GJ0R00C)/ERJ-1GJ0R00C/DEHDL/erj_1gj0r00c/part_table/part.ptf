@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ERJ_1GJ0R00C'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ERJ-1GJ0R00C" (!) = "", "ERJ1G_1023", "Other", "667-ERJ-1GJ0R00C", "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-1GJ0R00C?qs=OcgtsXO%252B3gsHTMloWTpOqQ%3D%3D", "Series/Type: Thick Film Chip Resistors, Power Rating (W): -, 0.6 x 0.3 (EIA:0201), Resistance Values (): 0, Resistance Tolerance (%): -, T.C.R (10/K): -", "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf", "0.26 mm"
+END_PART
+
+END.

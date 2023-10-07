@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ERA-3VEB5101V"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-09-03-10:18:21)
+    (mountForm default
+        (footprintRef "ERA3KV__0603_")
+        (spec "System")
+    )
+)

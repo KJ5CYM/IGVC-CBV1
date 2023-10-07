@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_18282551"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-30-21:34:01)
+    (utime 2023-05-30-21:34:01)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "BLM15PX121BH1D")
+)
+
+
+(pinAssign "ECS_18282551"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-30-21:34:01)
+    (utime 2023-05-30-21:34:01)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_18282551")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "BLM15PX121BH1D")
+)
+
+
+(part "BLM15PX121BH1D"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-05-30-21:34:01)
+    (utime 2023-05-30-21:34:01)
+    (packageRef "BLM15PX121BH1D")
+    (pinAssignRef "ECS_18282551")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "FB")
+    (property "description" "Ferrite Beads 0402 120ohm 25% 5A AEC-Q200")
+    (property "Mouser_Part_Number" "81-BLM15PX121BH1D")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15PX121BH1D?qs=9vOqFld9vZVEANUCBIdXVQ%3D%3D")
+    (property "Manufacturer_Name" "Murata Electronics")
+    (property "Manufacturer_Part_Number" "BLM15PX121BH1D")
+    (property "Datasheet_Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb")
+    (property "compAreaTopHeight" 0.55)
+)
+
+

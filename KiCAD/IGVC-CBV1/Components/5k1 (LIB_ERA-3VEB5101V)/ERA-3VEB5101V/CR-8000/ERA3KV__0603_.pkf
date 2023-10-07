@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "ERA3KV__0603_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "ERA3KV__0603_")
+        (spec "default")
+    )
+)

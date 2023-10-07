@@ -1,0 +1,9 @@
+Manufacturer=Murata Electronics
+PartNumber=GRMMDXR60J105ME05D
+PartCategory=Capacitor
+PackageCategory=Capacitor Chip Non-polarised
+PinCount=2
+Version=1.1
+Released=2019-12-31 16:58:47
+Downloaded=2023-10-07 04:45:43
+3D=Y

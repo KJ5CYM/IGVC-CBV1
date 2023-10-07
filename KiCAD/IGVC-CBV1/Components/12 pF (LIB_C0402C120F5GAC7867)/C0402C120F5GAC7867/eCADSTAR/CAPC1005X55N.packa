@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "C0402C120F5GAC7867"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-04-13-09:55:52)
+    (mountForm default
+        (footprintRef "CAPC1005X55N")
+        (spec "System")
+    )
+)

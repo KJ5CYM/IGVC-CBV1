@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '22_12_2024'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Molex", "22-12-2024" (!) = "", "22122024", "Other", "538-22-12-2024", "https://www.mouser.co.uk/ProductDetail/Molex/22-12-2024?qs=MuwpYaHj753tGAKgaPsRPQ%3D%3D", "Headers & Wire Housings R/A PCB HDR 2P GOLD FRICTION LOCK", "https://www.molex.com/pdm_docs/sd/022122024_sd.pdf", "6.6 mm"
+END_PART
+
+END.

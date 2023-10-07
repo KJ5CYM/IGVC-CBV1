@@ -1,0 +1,16 @@
+.ERA-3VEB5101V :1 ;Chip Resistor 0603 (1608 Metric) Anti-Sulfur, Automotive AEC-Q200 Thin Film
+ERA3KV__0603_
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ERA-3VEB5101V
+~!Mouser Part Number (667-ERA-3VEB5101V)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/ERA-3VEB5101V?qs=OlC7AqGiEDl9tf8gy86hUQ%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ERA-3VEB5101V)
+~!Link Datasheet (http://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/RDM0000C331.pdf)
+~!Height (0.4mm)
+~!3D_Model (ERA-3VEB5101V)
+ERA-3VEB5101V
+1.1!U 2.1!U 

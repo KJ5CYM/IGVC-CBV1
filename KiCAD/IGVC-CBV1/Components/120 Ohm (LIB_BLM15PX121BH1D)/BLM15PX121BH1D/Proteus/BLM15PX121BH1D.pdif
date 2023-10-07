@@ -1,0 +1,91 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "BLM15PX121BH1D"
+   (description "Ferrite Beads 0402 120ohm 25% 5A AEC-Q200")
+   (family "ANA")
+   (package "NFZ15SG152SN10B")
+   (attribute "Datasheet Link" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb")
+   (attribute "Geometry.Height" "0.55mm")
+   (attribute "Mouser Part Number" "81-BLM15PX121BH1D")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15PX121BH1D?qs=9vOqFld9vZVEANUCBIdXVQ%3D%3D")
+   (attribute "Manufacturer_Name" "Murata Electronics")
+   (attribute "Manufacturer_Part_Number" "BLM15PX121BH1D")
+   (gate
+    (symbol "BLM15PX121BH1D")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "BLM15PX121BH1D"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "NFZ15SG152SN10B"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -1.175 0.7)
+      (pt 1.175 0.7)
+      (pt 1.175 -0.7)
+      (pt -1.175 -0.7)
+      (pt -1.175 0.7))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.5 0.25)
+      (pt 0.5 0.25)
+      (pt 0.5 -0.25)
+      (pt -0.5 -0.25)
+      (pt -0.5 0.25))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt 0 0.15)
+      (pt 0 -0.15))))
+   (leg 1 (pt -0.400 0.000) (padstack 0))
+   (leg 2 (pt 0.400 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.400 0.500 0 0 90.000))
+   )
+   (model "BLM15PX121BH1D.stp"
+    (euler 0 0 90)
+    (offset 0.25 0 0.25)
+   )
+  )
+ )
+)

@@ -1,0 +1,16 @@
+.CRCW120660R0KNEAIF :1 ;Thick Film Resistors - SMD 1/4watt 60ohms 10%
+RESC3216X60N
+*STM R
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN CRCW120660R0KNEAIF
+~!Mouser Part Number (71-CRCW120660R0KNAIF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW120660R0KNEAIF?qs=0LP1uVfdam9gTU37MuGrNg%3D%3D)
+~!Manufacturer_Name (Vishay)
+~!Manufacturer_Part_Number (CRCW120660R0KNEAIF)
+~!Link Datasheet (http://componentsearchengine.com/Datasheets/1/CRCW120660R0KNEAIF.pdf)
+~!Height (0.6mm)
+~!3D_Model (CRCW120660R0KNEAIF)
+CRCW120660R0KNEAIF
+1.1!U 2.1!U 

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "NFZ15SG152SN10B"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "NFZ15SG152SN10B")
+        (spec "default")
+    )
+)

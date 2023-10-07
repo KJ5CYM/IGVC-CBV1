@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BLM15PX121BH1D'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Murata Electronics", "BLM15PX121BH1D" (!) = "", "NFZ15SG152SN10B", "Other", "81-BLM15PX121BH1D", "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM15PX121BH1D?qs=9vOqFld9vZVEANUCBIdXVQ%3D%3D", "Ferrite Beads 0402 120ohm 25% 5A AEC-Q200", "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c31e.ashx?la=en-gb", "0.55 mm"
+END_PART
+
+END.

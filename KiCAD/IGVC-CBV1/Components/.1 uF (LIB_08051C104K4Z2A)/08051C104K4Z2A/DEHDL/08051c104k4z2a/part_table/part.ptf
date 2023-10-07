@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '08051C104K4Z2A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "AVX", "08051C104K4Z2A" (!) = "", "CAPC2012X140N", "Capacitor Chip Non-polarised", "581-08051C104K4Z2A", "https://www.mouser.com/Search/Refine.aspx?Keyword=581-08051C104K4Z2A", "AVX - 08051C104K4Z2A - CAP, MLCC, X7R, 100NF, 100V, 0805", "https://componentsearchengine.com/Datasheets/1/08051C104K4Z2A.pdf", "1.4 mm"
+END_PART
+
+END.

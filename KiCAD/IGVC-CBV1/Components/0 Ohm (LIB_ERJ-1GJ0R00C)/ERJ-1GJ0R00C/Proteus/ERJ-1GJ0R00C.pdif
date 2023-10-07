@@ -1,0 +1,94 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "ERJ-1GJ0R00C"
+   (description "Series/Type: Thick Film Chip Resistors, Power Rating (W): -, 0.6 x 0.3 (EIA:0201), Resistance Values (): 0, Resistance Tolerance (%): -, T.C.R (10/K): -")
+   (family "RES")
+   (package "ERJ1G_1023")
+   (attribute "Datasheet Link" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf")
+   (attribute "Geometry.Height" "0.26mm")
+   (attribute "Mouser Part Number" "667-ERJ-1GJ0R00C")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-1GJ0R00C?qs=OcgtsXO%252B3gsHTMloWTpOqQ%3D%3D")
+   (attribute "Manufacturer_Name" "Panasonic")
+   (attribute "Manufacturer_Part_Number" "ERJ-1GJ0R00C")
+   (gate
+    (symbol "ERJ-1GJ0R00C")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "ERJ-1GJ0R00C"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 50) (pt 500 50) (pt 500 -50) (pt 200 -50) (pt 200 50) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 700 0) (rot 0) (mir X) (visible true))
+    (name (pt 0 -10) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 0 10) (rot 0) (just BOTTOM LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "ERJ1G_1023"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.975 0.45)
+      (pt 0.975 0.45)
+      (pt 0.975 -0.45)
+      (pt -0.975 -0.45)
+      (pt -0.975 0.45))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.3 0.15)
+      (pt 0.3 0.15)
+      (pt 0.3 -0.15)
+      (pt -0.3 -0.15)
+      (pt -0.3 0.15))))
+   (layer TSLK
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -0.675 0.025)
+      (arc (pt -0.675 0.025) (pt -0.700 -0.025) (pt -0.650 0.025) (start 180.0) (sweep 90.0))
+      (pt -0.675 -0.025)
+      (arc (pt -0.675 -0.025) (pt -0.700 -0.025) (pt -0.650 0.025) (start 180.0) (sweep -90.0))
+      (pt -0.675 0.025))))
+   (leg 1 (pt -0.313 0.000) (padstack 0))
+   (leg 2 (pt 0.313 0.000) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.275 0.300 0 0 90.000))
+   )
+   (model "ERJ-1GJ0R00C.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

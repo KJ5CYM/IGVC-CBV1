@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ERJ-1GJ0R00C
+#/18636881/1127645/2.50/2/2/Resistor
+DEF ERJ-1GJ0R00C R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-1GJ0R00C" 550 150 50 H V L CNN
+F2 "ERJ1G_1023" 550 50 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C301.pdf" 550 -50 50 H I L CNN
+F4 "Series/Type: Thick Film Chip Resistors, Power Rating (W): -, 0.6 x 0.3 (EIA:0201), Resistance Values (): 0, Resistance Tolerance (%): -, T.C.R (10/K): -" 550 -150 50 H I L CNN "Description"
+F5 "0.26" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-1GJ0R00C" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-1GJ0R00C?qs=OcgtsXO%252B3gsHTMloWTpOqQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-1GJ0R00C" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#End Library

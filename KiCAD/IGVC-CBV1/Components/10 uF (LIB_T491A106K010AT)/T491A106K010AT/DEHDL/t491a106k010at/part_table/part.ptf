@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'T491A106K010AT'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "T491A106K010AT" (!) = "", "T491A", "Other", "80-T491A106K010", "https://www.mouser.co.uk/ProductDetail/KEMET/T491A106K010AT?qs=VCf6WUQjPgE2CESwzh%252BRVg%3D%3D", "T491, Tantalum, MnO2 Tantalum, Commercial Grade, 10 uF, 10%, 10 VDC, 125C, -55C, 85C, SMD, MnO2, Molded, 6 % , 3.8 Ohms, 1000 nA, 58.6 mg, 3216, 1.6mm, Height Max = 1.8mm, 2000, 156  Weeks", "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf", "1.8 mm"
+END_PART
+
+END.

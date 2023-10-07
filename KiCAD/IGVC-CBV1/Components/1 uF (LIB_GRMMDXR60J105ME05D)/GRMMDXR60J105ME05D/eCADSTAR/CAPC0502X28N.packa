@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "GRMMDXR60J105ME05D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-31-16:58:47)
+    (mountForm default
+        (footprintRef "CAPC0502X28N")
+        (spec "System")
+    )
+)

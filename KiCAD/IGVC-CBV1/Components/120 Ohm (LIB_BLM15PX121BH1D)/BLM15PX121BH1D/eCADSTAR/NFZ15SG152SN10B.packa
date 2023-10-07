@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BLM15PX121BH1D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-05-22-12:51:44)
+    (mountForm default
+        (footprintRef "NFZ15SG152SN10B")
+        (spec "System")
+    )
+)
