@@ -5,7 +5,7 @@ IGVC Club.
 
 
 # Original Designers and Developers (2023)
-Evan Eden, Colby McLane, Kerwin Zhang, Tarun ??
+Evan Eden, Colby McLane, Kerwin Zhang, Tarun Dogolu
 
 
 # Updates
