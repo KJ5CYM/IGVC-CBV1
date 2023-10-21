@@ -2597,7 +2597,7 @@
 
   (gr_rect (start 101.6 54.356) (end 187.452 121.412)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 9ad60b1e-26f6-44d8-887a-1df0f3249fc9))
-  (gr_text "IGVC Project Genesis V1\n2023\n(Evan E, Colby M., Kerwin Z., Tarun Daggolu)" (at 122.2 68) (layer "F.SilkS") (tstamp d3e526a6-9f6e-4079-a757-f4c14196a5ec)
+  (gr_text "IGVC Project Genesis V1\n2023\n(Evan E, Colby M, Kerwin Z, Tarun D)" (at 122.2 68) (layer "F.SilkS") (tstamp d3e526a6-9f6e-4079-a757-f4c14196a5ec)
     (effects (font (size 1.5 1) (thickness 0.25) bold) (justify bottom))
   )
 
