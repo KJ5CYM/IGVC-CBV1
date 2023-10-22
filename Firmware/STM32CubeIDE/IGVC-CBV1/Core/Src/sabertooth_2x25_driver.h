@@ -116,7 +116,7 @@
     /* Use desired hardware address, per hardware DIP switch settings */
 
     #define MOTOR_DRIVER_ADDRESS_1       128
-    #define MOTOR_DRIVER_ADDRESS_2       129
+    #define MOTOR_DRIVER_ADDRESS_2       129        //THIS IS ITTTTTTT!!!!!!!!!!!!!!
     #define MOTOR_DRIVER_ADDRESS_3       130
     #define MOTOR_DRIVER_ADDRESS_4       131
     #define MOTOR_DRIVER_ADDRESS_5       132

@@ -1,3 +1,28 @@
+#include <sabertooth_2x25_driver.h>
+SabertoothSimplified ST;
+
+
+// Joysticks
+#define CH2 5
+#define CH3 6
+// Switches, could select switches through the RC Settings menu. 
+#define CH5 9 // SWA
+#define CH6 11 // SWD
+
+#define BIAS 10 // Noise bias rejection 
+#define P_S_R 2 // pin select receive 0 for left vcc rail for right
+#define BUFFER_SIZE 10
+typedef struct RECEIVER
+{
+  int LEFT = 0;
+  int RIGHT = 0;
+
+}RECEIVER;
+
+/*
+FIFO implementation for smoothing motor commands.
+*/
+
 class MotorFIFO {
 	private:
 	  int leftMotorBuffer[BUFFER_SIZE];
