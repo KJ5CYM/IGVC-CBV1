@@ -1,4 +1,4 @@
-
+#include <cmath>
 /* This ifdef allows the header to be used from both C and C++. */
 extern "C"
 {
@@ -97,3 +97,32 @@ void setup()
 	
 }
 
+void Send_To_Motors(int LEFT, int RIGHT)
+{
+	MotorFIFONew S_MOTOR;
+	S_MOTOR.insertVelocities(LEFT,RIGHT);
+	//This will drive the motor
+	//based on these values
+
+	if(abs(S_MOTOR.getLeftMotorAverage())>= BIAS)
+	{
+		ST.motor(1,(int) S_MOTOR.getLeftMotorAverage());
+		//Motor 1's Power
+	}
+	else
+	{
+		ST.motor(1,0);
+		//Motor 1's Power -> 0
+	}
+
+	if(abs(S_MOTOR.getRightMotorAverage())>=BIAS)
+	{
+		ST.motor(2, (int) S_MOTOR.getRightMotorAverage());
+		//Motor 1's Power
+	}
+	else
+	{
+		ST.motor(2,0);
+		//Motor 2's Power -> 0
+	}
+}
