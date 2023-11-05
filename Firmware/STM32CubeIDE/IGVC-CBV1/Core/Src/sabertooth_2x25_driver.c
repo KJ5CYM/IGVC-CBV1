@@ -63,7 +63,7 @@
  *
  *********************************************************************************************/
 
-uint8_t control_motors_sep ( uint8_t command1, uint8_t speed1, \
+static uint8_t control_motors_sep ( uint8_t command1, uint8_t speed1, \
                              uint8_t command2, uint8_t speed2, \
                              uint8_t address ) {
 // = MOTOR_DRIVER_ADDRESS_1 ) { // If your compiler allows overloading, feel free to un-comment the assignment
@@ -109,7 +109,7 @@ uint8_t control_motors_sep ( uint8_t command1, uint8_t speed1, \
  *
  *********************************************************************************************/
 
-uint8_t control_motors_mixed ( uint8_t command, uint8_t speed, uint8_t address ) {
+static uint8_t control_motors_mixed ( uint8_t command, uint8_t speed, uint8_t address ) {
 
     if ( command < DRIVE_FORWARD_MIXED || command > DRIVE_TURN_7_BIT ) {
 
@@ -141,7 +141,7 @@ uint8_t control_motors_mixed ( uint8_t command, uint8_t speed, uint8_t address )
  * Notes:           This function is valid for Sabertooth Command 2
  *********************************************************************************************/
 
-uint8_t set_minimum_controller_voltage ( uint8_t desired_minimum_voltage, uint8_t address ) {
+atatic uint8_t set_minimum_controller_voltage ( uint8_t desired_minimum_voltage, uint8_t address ) {
 
     uint8_t new_min_voltage = DEFAULT_MINIMUM_VOLTAGE;
 
@@ -178,7 +178,7 @@ uint8_t set_minimum_controller_voltage ( uint8_t desired_minimum_voltage, uint8_
  * Notes:           This function is valid for Sabertooth Command 3
  *********************************************************************************************/
 
-uint8_t set_maximum_controller_voltage ( uint8_t desired_maximum_voltage, uint8_t address ) {
+static uint8_t set_maximum_controller_voltage ( uint8_t desired_maximum_voltage, uint8_t address ) {
 
     uint8_t new_max_voltage = DEFAULT_MAXIMUM_VOLTAGE;
 
@@ -216,7 +216,7 @@ uint8_t set_maximum_controller_voltage ( uint8_t desired_maximum_voltage, uint8_
  * Notes:           This function is valid for Sabertooth Command 14
  *********************************************************************************************/
 
-uint8_t set_serial_timeout ( uint8_t desired_timeout_period, uint8_t address ) {
+static uint8_t set_serial_timeout ( uint8_t desired_timeout_period, uint8_t address ) {
 
     uint8_t new_timeout_period = DEFAULT_SERIAL_TIMEOUT;
 
@@ -251,7 +251,7 @@ uint8_t set_serial_timeout ( uint8_t desired_timeout_period, uint8_t address ) {
  * Notes:           This function is valid for Sabertooth Command 15
  *********************************************************************************************/
 
-uint8_t set_baudrate ( uint8_t desired_baudrate, uint8_t address ) {
+static uint8_t set_baudrate ( uint8_t desired_baudrate, uint8_t address ) {
 
     static uint8_t new_baudrate = DEFAULT_BAUDRATE;
 
@@ -286,7 +286,7 @@ uint8_t set_baudrate ( uint8_t desired_baudrate, uint8_t address ) {
  * Notes:           This function is valid for Sabertooth Command 16
  *********************************************************************************************/
 
-uint8_t set_ramping_rate ( uint8_t desired_ramping_rate, uint8_t address ) {
+static uint8_t set_ramping_rate ( uint8_t desired_ramping_rate, uint8_t address ) {
 
     static uint8_t new_ramping_rate = DEFAULT_RAMPING_VALUE;
 
@@ -323,7 +323,7 @@ uint8_t set_ramping_rate ( uint8_t desired_ramping_rate, uint8_t address ) {
  * Notes:           This function is valid for Sabertooth Command 17
  *********************************************************************************************/
 
-uint8_t set_deadband_range ( uint8_t desired_deadband, uint8_t address ) {
+static uint8_t set_deadband_range ( uint8_t desired_deadband, uint8_t address ) {
 
     static uint8_t new_deadband = DEFAULT_DEADBAND;
 
@@ -358,17 +358,24 @@ uint8_t set_deadband_range ( uint8_t desired_deadband, uint8_t address ) {
     /* Helper Command, for internal driver use only
      * Defining it here, in the .c file, instead of in the .h file, to prevent
      * compiler warning about it being declared "static", but never defined
-     * This is correct, since it is not for the user, only the user's functions */
+     * This is correct, since it is not for the user, only the user's functions
 
-    static void send_command ( uint8_t command, uint8_t value, uint8_t address );
-
-/*********************************************************************************************/
-static void send_command ( uint8_t command, uint8_t value, uint8_t address ) {
     assert  ( command < COMMAND_HIGH_LIMIT);
     putchar ( address );
     putchar ( command );
     putchar ( value );
-    putchar ( ( address + command + value ) & CRC_MASK );
+    putchar ( ( address + command + value ) & CRC_MASK );*/
+
+//static void send_command ( uint8_t command, uint8_t value, uint8_t address );
+
+/*********************************************************************************************/
+static void send_command(uint8_t command, uint8_t value, uint8_t address)
+{
+	assert(command< COMMAND_HIGH_LIMIT);
+	putchar(address);
+	putchar(command);
+	putchar(value);
+	putchar((address+command+value)& CRC_MASK);
 }
 
 

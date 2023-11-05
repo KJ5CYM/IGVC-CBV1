@@ -18,7 +18,7 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-
+#include "sabertooth_2x25_driver.c"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -101,7 +101,6 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
 
     
     /* USER CODE BEGIN 3 */

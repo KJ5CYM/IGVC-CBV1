@@ -213,22 +213,23 @@
  *********************************************************************************************/
 
 
-    uint8_t control_motors_sep ( uint8_t command1, uint8_t speed1, uint8_t command2, uint8_t speed2, uint8_t address );
+    static uint8_t control_motors_sep ( uint8_t command1, uint8_t speed1, uint8_t command2, uint8_t speed2, uint8_t address );
    
-    uint8_t control_motors_mixed ( uint8_t command, uint8_t speed, uint8_t address );
+    static uint8_t control_motors_mixed ( uint8_t command, uint8_t speed, uint8_t address );
 
-    uint8_t set_minimum_controller_voltage ( uint8_t desired_minimum_voltage, uint8_t address );
+    static uint8_t set_minimum_controller_voltage ( uint8_t desired_minimum_voltage, uint8_t address );
 
-    uint8_t set_maximum_controller_voltage ( uint8_t desired_maximum_voltage, uint8_t address );
+    static uint8_t set_maximum_controller_voltage ( uint8_t desired_maximum_voltage, uint8_t address );
 
-    uint8_t set_serial_timeout ( uint8_t desired_timeout_period, uint8_t address );
+    static uint8_t set_serial_timeout ( uint8_t desired_timeout_period, uint8_t address );
 
-    uint8_t set_baudrate ( uint8_t desired_baudrate, uint8_t address );
+    static uint8_t set_baudrate ( uint8_t desired_baudrate, uint8_t address );
 
-    uint8_t set_ramping_rate ( uint8_t desired_ramping_rate, uint8_t address );
+    static uint8_t set_ramping_rate ( uint8_t desired_ramping_rate, uint8_t address );
 
-    uint8_t set_deadband_range ( uint8_t desired_deadband, uint8_t address );
+    static uint8_t set_deadband_range ( uint8_t desired_deadband, uint8_t address );
    
+    static void send_command ( uint8_t command, uint8_t value, uint8_t address );
    
 #endif
 
