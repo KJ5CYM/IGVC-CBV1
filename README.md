@@ -1,7 +1,7 @@
 # IGVC-CBV1
 This board is a first step in a line to hopefully
 replace Arduino use with custom hardware for UT RAS's
-IGVC Club.
+IGVC Team.
 
 
 # Original Designers and Developers (2023)
