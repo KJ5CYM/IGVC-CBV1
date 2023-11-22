@@ -1,8 +1,5 @@
 # IGVC-CBV1
-This board is a first step in a line to hopefully
-replace Arduino use with custom hardware for UT RAS's
-IGVC Team.
-
+This board is the first step in a project to replace Arduino boards with custom hardware on the robot for UT RAS's IGVC Team. 
 
 # Original Designers and Developers (2023)
 Evan Eden, Colby McLane, Kerwin Zhang, Tarun Dogolu
