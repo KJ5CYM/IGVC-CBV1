@@ -2,7 +2,7 @@
 This board is the first step in a project to replace Arduino with custom hardware on the robot for the UT IGVC Team.
  
 # Original Designers and Developers (2023)
-Evan Eden, Colby McLane, Kerwin Zhang, Tarun Daggolu.
+Evan Eden, Colby McLane, Kerwin Zhang, Tarun Daggolu
 
 
 # Updates
