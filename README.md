@@ -1,4 +1,6 @@
 # IGVC-CBV1
+This is a failed project! The board as it stands does not work, due to my own amateur mistakes.
+
 This board is the first step in a project to replace Arduino with custom hardware on the robot for the UT IGVC Team.
  
 # Original Designers and Developers (2023)
